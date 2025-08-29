@@ -1,0 +1,58 @@
+🎥 YouTube Downloader by JACH v1.0.0
+═══════════════════════════════════════════════════════════════
+
+✨ CARACTERÍSTICAS:
+• Interfaz web moderna con efectos glassmorphism translúcidos
+• Descarga videos de YouTube en MP3/MP4
+• Múltiples opciones de calidad
+• Archivo ejecutable único y portable
+• No requiere instalación adicional
+• Protegido contra copia y modificación
+
+🔒 PROTECCIÓN IMPLEMENTADA:
+• Código con copyright embebido
+• Marca "Made by JACH" prominente
+• Verificación de integridad
+• Licencia propietaria
+
+💻 COMPATIBILIDAD UNIVERSAL:
+✅ Windows 10/11 (32-bit y 64-bit)
+✅ No requiere Python, Node.js, o cualquier dependencia
+✅ Funciona en CUALQUIER PC Windows
+✅ 100% Portable - no requiere instalación
+
+📝 INSTRUCCIONES DE USO:
+1. Ejecuta "YouTube-Downloader-byJACH.exe"
+2. Se abrirá automáticamente en tu navegador web
+3. Pega la URL del video de YouTube
+4. Selecciona formato (MP3 para audio, MP4 para video)
+5. Elige la calidad deseada
+6. Haz clic en "Descargar"
+7. Una vez completado, abre la carpeta de descargas
+
+🌟 CARACTERÍSTICAS ESPECIALES:
+• Interfaz translúcida y moderna
+• Detección automática de información del video
+• Preview del video antes de descargar
+• Barra lateral con "Made by JACH" siempre visible
+• Botón para abrir carpeta de descargas automáticamente
+
+📦 DISTRIBUCIÓN:
+• El archivo .exe es completamente autónomo
+• Puedes copiarlo a cualquier PC Windows
+• Funciona sin conexión a internet (excepto para descargar)
+• Tamaño: ~18 MB
+
+🚨 IMPORTANTE - PROTECCIÓN LEGAL:
+🏷️  Made by JACH - © 2025
+🚫 Prohibida la redistribución comercial sin autorización
+🚫 Prohibida la modificación del código fuente
+🚫 Prohibida la ingeniería inversa
+✅ Permitido uso personal
+
+📧 CONTACTO:
+Si necesitas una licencia comercial o tienes dudas,
+contacta al desarrollador original: JACH
+
+═══════════════════════════════════════════════════════════════
+🎉 ¡DISFRUTA TU DESCARGADOR DE YOUTUBE PERSONALIZADO! 🎉

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader - by JACH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Barra lateral con créditos -->
+        <div class="sidebar">
+            <div class="credits">
+                <div class="made-by">
+                    <i class="fas fa-code"></i>
+                    <span>Made by</span>
+                    <strong>JACH</strong>
+                </div>
+                <div class="version">v1.0.0</div>
+            </div>
+            
+            <div class="features">
+                <h3>Características</h3>
+                <ul>
+                    <li><i class="fas fa-download"></i> Descarga MP3/MP4</li>
+                    <li><i class="fas fa-cog"></i> Múltiples calidades</li>
+                    <li><i class="fas fa-bolt"></i> Súper rápido</li>
+                    <li><i class="fas fa-shield-alt"></i> 100% seguro</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="main-content">
+            <header>
+                <h1>
+                    <i class="fab fa-youtube"></i>
+                    YouTube Downloader
+                </h1>
+                <p>Descarga videos de YouTube en alta calidad</p>
+            </header>
+
+            <div class="download-section">
+                <div class="url-input-section">
+                    <div class="input-group">
+                        <input 
+                            type="url" 
+                            id="youtube-url" 
+                            placeholder="Pega aquí la URL del video de YouTube..."
+                            autocomplete="off"
+                        >
+                        <button id="analyze-btn" class="btn-primary">
+                            <i class="fas fa-search"></i>
+                            Analizar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Información del video -->
+                <div id="video-info" class="video-info" style="display: none;">
+                    <div class="video-preview">
+                        <img id="video-thumbnail" src="" alt="Video thumbnail">
+                        <div class="video-details">
+                            <h3 id="video-title"></h3>
+                            <p id="video-uploader"></p>
+                            <span id="video-duration"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Opciones de descarga -->
+                <div id="download-options" class="download-options" style="display: none;">
+                    <h3>Opciones de Descarga</h3>
+                    
+                    <div class="format-selection">
+                        <div class="format-option" data-format="mp4">
+                            <i class="fas fa-video"></i>
+                            <span>Video (MP4)</span>
+                        </div>
+                        <div class="format-option" data-format="mp3">
+                            <i class="fas fa-music"></i>
+                            <span>Audio (MP3)</span>
+                        </div>
+                    </div>
+
+                    <div class="quality-selection" id="quality-options">
+                        <label for="quality-select">Calidad:</label>
+                        <select id="quality-select">
+                            <option value="best">Mejor calidad disponible</option>
+                            <option value="worst">Menor tamaño</option>
+                        </select>
+                    </div>
+
+                    <button id="download-btn" class="btn-download">
+                        <i class="fas fa-download"></i>
+                        Descargar Video
+                    </button>
+                </div>
+
+                <!-- Estado de descarga -->
+                <div id="download-status" class="download-status" style="display: none;">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <p id="status-text">Preparando descarga...</p>
+                    </div>
+                </div>
+
+                <!-- Resultado -->
+                <div id="download-result" class="download-result" style="display: none;">
+                    <div class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>¡Descarga completada!</h3>
+                        <p>Tu video se ha descargado exitosamente</p>
+                        <button id="open-folder-btn" class="btn-secondary">
+                            <i class="fas fa-folder-open"></i>
+                            Abrir Carpeta
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

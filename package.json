@@ -1,0 +1,36 @@
+{
+  "name": "youtube-downloader-byJACH",
+  "version": "1.0.0",
+  "description": "Descargador de videos de YouTube portable - Made by JACH",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pkg . --targets node18-win-x64 --output youtube-downloader-byJACH.exe",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
+    "open": "^8.4.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "bin": {
+    "youtube-downloader": "./server.js"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "node_modules/yt-dlp-wrap/bin/**/*"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "author": "JACH",
+  "license": "MIT"
+}
