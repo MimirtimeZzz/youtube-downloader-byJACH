@@ -39,7 +39,7 @@ Una aplicación web portable moderna para descargar videos de YouTube con una in
 ### Opción 2: Ejecutar desde el Código Fuente
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/youtube-downloader-byJACH.git
+git clone https://github.com/MimirtimeZzz/youtube-downloader-byJACH.git
 cd youtube-downloader-byJACH
 
 # Instalar dependencias
